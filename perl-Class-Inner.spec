@@ -5,12 +5,12 @@ Summary:	%{pdir}::%{pnam} - A perlish implementation of Java-like inner classes
 Summary(pl):	%{pdir}::%{pnam} - perlowa implementacja wewnêtrznych klas w stylu Javy
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.1
-Release:	1
+Release:	2
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.0.2-104
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
