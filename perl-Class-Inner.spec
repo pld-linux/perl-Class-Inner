@@ -1,7 +1,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Class
 %define	pnam	Inner
-Summary:	%{pdir}::%{pnam} - A perlish implementation of Java-like inner classes
+Summary:	%{pdir}::%{pnam} - a perlish implementation of Java-like inner classes
 Summary(pl):	%{pdir}::%{pnam} - perlowa implementacja wewnêtrznych klas w stylu Javy
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.1
