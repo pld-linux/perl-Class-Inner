@@ -6,7 +6,8 @@ Summary(pl):	%{pdir}::%{pnam} - perlowa implementacja wewnêtrznych klas w stylu 
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.1
 Release:	2
-License:	GPL/Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	388db813c6a7050c4e0483bc4d86fc21
