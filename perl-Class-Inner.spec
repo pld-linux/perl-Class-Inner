@@ -15,12 +15,14 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Yet another implementation of an anonymous class with per
-object overrideable methods, but with the added attraction
-of sort of working dispatch to the parent class's method.
+Yet another implementation of an anonymous class with per object
+overrideable methods, but with the added attraction of sort of
+working dispatch to the parent class's method.
 
-# %description -l pl
-# TODO, znów mnie przeros³a
+%description -l pl
+Jeszcze jedna implementacja anonimowej klasy z metodami przykrywalnymi
+dla obiektu, ale z dodanym czym¶ w rodzaju wysy³ania do metody klasy
+nadrzêdnej.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
