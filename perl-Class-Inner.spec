@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Class
-%define	pnam	Inner
+%define		pdir	Class
+%define		pnam	Inner
 Summary:	Class::Inner - a perlish implementation of Java-like inner classes
 Summary(pl):	Class::Inner - perlowa implementacja wewnêtrznych klas w stylu Javy
 Name:		perl-Class-Inner
