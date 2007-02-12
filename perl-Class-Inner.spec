@@ -6,7 +6,7 @@
 %define		pdir	Class
 %define		pnam	Inner
 Summary:	Class::Inner - a perlish implementation of Java-like inner classes
-Summary(pl):	Class::Inner - perlowa implementacja wewnêtrznych klas w stylu Javy
+Summary(pl.UTF-8):   Class::Inner - perlowa implementacja wewnÄ™trznych klas w stylu Javy
 Name:		perl-Class-Inner
 Version:	0.1
 Release:	3
@@ -25,10 +25,10 @@ Yet another implementation of an anonymous class with per object
 overrideable methods, but with the added attraction of sort of
 working dispatch to the parent class's method.
 
-%description -l pl
+%description -l pl.UTF-8
 Jeszcze jedna implementacja anonimowej klasy z metodami przykrywalnymi
-dla obiektu, ale z dodanym czym¶ w rodzaju wysy³ania do metody klasy
-nadrzêdnej.
+dla obiektu, ale z dodanym czymÅ› w rodzaju wysyÅ‚ania do metody klasy
+nadrzÄ™dnej.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
