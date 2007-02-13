@@ -6,7 +6,7 @@
 %define		pdir	Class
 %define		pnam	Inner
 Summary:	Class::Inner - a perlish implementation of Java-like inner classes
-Summary(pl.UTF-8):   Class::Inner - perlowa implementacja wewnętrznych klas w stylu Javy
+Summary(pl.UTF-8):	Class::Inner - perlowa implementacja wewnętrznych klas w stylu Javy
 Name:		perl-Class-Inner
 Version:	0.1
 Release:	3
