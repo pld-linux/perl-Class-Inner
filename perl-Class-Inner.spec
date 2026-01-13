@@ -8,7 +8,7 @@ Summary:	Class::Inner - a perlish implementation of Java-like inner classes
 Summary(pl.UTF-8):	Class::Inner - perlowa implementacja wewnętrznych klas w stylu Javy
 Name:		perl-Class-Inner
 Version:	0.1
-Release:	4
+Release:	5
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
