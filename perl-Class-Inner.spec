@@ -7,13 +7,13 @@
 Summary:	Class::Inner - a perlish implementation of Java-like inner classes
 Summary(pl.UTF-8):	Class::Inner - perlowa implementacja wewnętrznych klas w stylu Javy
 Name:		perl-Class-Inner
-Version:	0.1
-Release:	5
+Version:	0.200001
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	388db813c6a7050c4e0483bc4d86fc21
+# Source0-md5:	84589d849d359057554e09b43d922c22
 URL:		http://search.cpan.org/dist/Class-Inner/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
